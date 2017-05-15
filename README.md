@@ -12,6 +12,9 @@ matplotlib
 geopandas
 ```
 
+Make sure to download the data. Should only have to do this once.
+`./data.sh`
+
 ## Quick Start
 A docker image is provided that satisfy the above requirements.
 
