@@ -1,6 +1,6 @@
 Wettest MSAs by Population
 =====================
-This notebook sorts all metropolitan statistical areas (MSAs) in the United States by wettest population during May of 2015.  The population wetness of an MSA is calculated as the number of people in the MSA times the amount of rain received.  For the purposes of this exercise, assume that all people remain inside between the hours of 12 AM and 7 AM local time and so rainfall during these hours does not count.
+Analysis that sorts all metropolitan statistical areas (MSAs) in the United States by wettest population during May of 2015.  The population wetness of an MSA is calculated as the number of people in the MSA times the amount of rain received.  For the purposes of this exercise, assume that all people remain inside between the hours of 12 AM and 7 AM local time and so rainfall during these hours does not count.
 
 ## Requirements
 
@@ -12,20 +12,22 @@ matplotlib
 geopandas
 ```
 
-Make sure to download the data. Should only have to do this once.
+## Quick Start
+1. Make sure to download the data. Should only have to do this once.
+
 `./data.sh`
 
-## Quick Start
-A docker image is provided that satisfy the above requirements.
+2. A docker image is provided that satisfies the above requirements.
 
 `docker pull bpburns/geopandas-notebook`
+
 `./run.sh`
 
 Point your web browser to your docker host's ip at port 8888.  Load the notebook "Wettest MSA.ipynb"
 
 ## Run Without Docker
 
-Ensure that you have the above requirements and Launch the jupyter notebook environment from this directory and load the ```Wettest MSA.ipynb``` notebook.
+Ensure that you have the above requirements and launch the jupyter notebook environment from this directory and load the ```Wettest MSA.ipynb``` notebook.
 
 ## Run Without Jupyter
 
