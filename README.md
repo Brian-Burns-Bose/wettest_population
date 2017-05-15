@@ -52,6 +52,10 @@ The next step is to figure out in which MSAs the WBANs belong. The U.S. Census B
 The last step is to add the population data in order to perform our wettest population calculation. The file CPH-T-5.xls contains a list of MSA names and their populations according to the 2010 census. We do a join on MSA name with our precipitation totals and add a wetness to score.
 
 ## Technologies Used.
-The choice of programming language and libraries boils to down to what is the right tool for the job. Typically in a data analysis exercise such as this 75% of the work is data preparation. You need to explore the data, figure out the format, look for bogus values and ensure data integrity. Heavily typed languages such as Java can sometimes make this difficult at first as you may not have all the type information. A language such as Python which is used frequently in the data analytics space would be a very good choice.
+The choice of programming language and libraries boils to down to what is the right tool for the job. Typically in a data analysis exercise such as this 75% of the work is data preparation. You need to explore the data, figure out the format, look for bogus values and ensure data integrity. 
+
+Heavily typed languages such as Java can sometimes make this difficult at first as you may not have all the type information. A language such as Python which is used frequently in the data analytics space would be a very good choice.
+
 The data is not big enough to warrant a big data stack such as Apache Spark or other Hadoop based technologies. Python has a library ideally suited for this analysis called Pandas. Pandas contains a data structure called a DataFrame which we will make use of here.
-Jupyter Notebooks are an ideal way to perform an analysis such as this. They allow the developer to present their findings with tools such as markdown and the ability to display graphs, maps and arbitrary HTML.
+
+Jupyter Notebooks are an ideal way to perform an analysis such as this. They allow the developer to present their findings with markdown cells and the ability to display graphs, maps and arbitrary HTML.
