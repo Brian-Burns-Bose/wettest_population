@@ -12,11 +12,12 @@ matplotlib
 geopandas
 ```
 
-Make sure to download the data. Should only have to do this once.
+## Quick Start
+1. Make sure to download the data. Should only have to do this once.
+
 `./data.sh`
 
-## Quick Start
-A docker image is provided that satisfy the above requirements.
+2. A docker image is provided that satisfies the above requirements.
 
 `docker pull bpburns/geopandas-notebook`
 
@@ -26,7 +27,7 @@ Point your web browser to your docker host's ip at port 8888.  Load the notebook
 
 ## Run Without Docker
 
-Ensure that you have the above requirements and Launch the jupyter notebook environment from this directory and load the ```Wettest MSA.ipynb``` notebook.
+Ensure that you have the above requirements and launch the jupyter notebook environment from this directory and load the ```Wettest MSA.ipynb``` notebook.
 
 ## Run Without Jupyter
 
