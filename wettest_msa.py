@@ -1,3 +1,8 @@
+"""
+Please see README.md for requirements and overview.
+Make sure to run ./data.sh to download data sources.
+"""
+
 import pandas as pd
 import numpy as np
 

@@ -6,10 +6,10 @@ Analysis that sorts all metropolitan statistical areas (MSAs) in the United Stat
 
 ```
 python 3.5 
-jupyter notebook
-pandas
-matplotlib
-geopandas
+[jupyter notebook](http://jupyter.org/install.html)
+pandas >= 0.20.1
+matplotlib >= 2.0.2
+geopandas >= 0.2.1
 ```
 
 ## Quick Start
@@ -27,7 +27,13 @@ Point your web browser to your docker host's ip at port 8888.  Load the notebook
 
 ## Run Without Docker
 
-Ensure that you have the above requirements and launch the jupyter notebook environment from this directory and load the ```Wettest MSA.ipynb``` notebook.
+Ensure the requirements and launch the jupyter notebook environment from this directory and open the ```Wettest MSA.ipynb``` notebook.
+
+```
+jupyter notebook \
+  --NotebookApp.token='' \
+  --NotebookApp.iopub_data_rate_limit=10000000000
+```
 
 ## Run Without Jupyter
 
