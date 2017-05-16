@@ -20,6 +20,7 @@ geopandas >= 0.2.1
 2. A docker image is provided that satisfies the above requirements.
 
 `docker pull bpburns/geopandas-notebook`
+(May take a few minutes)
 
 `./run.sh`
 
